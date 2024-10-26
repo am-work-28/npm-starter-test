@@ -36,20 +36,28 @@ npm install npm-starter-test
 ## Usage
 
 ```javascript
-const utils = require("npm-starter-test ");
+import {
+  greet,
+  capitalize,
+  reverse,
+  add,
+  power,
+  unique,
+  chunk,
+} from "npm-starter-test";
 
 // String utilities
-console.log(utils.greet("World")); // Hello, World!
-console.log(utils.capitalize("hello")); // Hello
-console.log(utils.reverse("hello")); // olleh
+console.log(greet("World")); // Hello, World!
+console.log(capitalize("hello")); // Hello
+console.log(reverse("hello")); // olleh
 
 // Math utilities
-console.log(utils.add(2, 3)); // 5
-console.log(utils.power(2, 3)); // 8
+console.log(add(2, 3)); // 5
+console.log(power(2, 3)); // 8
 
 // Array utilities
-console.log(utils.unique([1, 1, 2, 2, 3])); // [1, 2, 3]
-console.log(utils.chunk([1, 2, 3, 4], 2)); // [[1, 2], [3, 4]]
+console.log(unique([1, 1, 2, 2, 3])); // [1, 2, 3]
+console.log(chunk([1, 2, 3, 4], 2)); // [[1, 2], [3, 4]]
 ```
 
 ## License
