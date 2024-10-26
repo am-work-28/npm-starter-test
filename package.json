@@ -1,0 +1,19 @@
+{
+  "name": "npm-starter-test",
+  "version": "1.0.0",
+  "description": "A comprehensive utility library for common JavaScript operations",
+  "main": "index.js",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/am-work-28/npm-starter-test.git"
+  },
+  "author": "Aman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/am-work-28/npm-starter-test/issues"
+  },
+  "homepage": "https://github.com/am-work-28/npm-starter-test#readme"
+}
